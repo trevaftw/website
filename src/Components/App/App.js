@@ -7,6 +7,7 @@ import {
 
 //styling
 import './App.css';
+import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
 //components
 import Nav from '../Nav/Nav';
@@ -18,7 +19,15 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Nav />
+        <CSSTransitionGroup
+           transitionName="example"
+           transitionAppear={true}
+           transitionAppearTimeout={500}
+           transitionEnter={false}
+           transitionLeave={false}>
+          <Nav />
+        </CSSTransitionGroup>
+        
         <div>
           <Switch>
             <Route
