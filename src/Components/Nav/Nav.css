@@ -1,0 +1,9 @@
+header {
+    background-color: #aed9e8;
+    overflow: auto;    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
