@@ -5,6 +5,9 @@ import {
   Switch, //put switch around the routes will check all the routes for a match, then if not it will render the 404--see last route before </switch>
 } from 'react-router-dom';
 
+//styling
+import './App.css';
+
 //components
 import Nav from '../Nav/Nav';
 
