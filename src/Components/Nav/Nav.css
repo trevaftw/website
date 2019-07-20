@@ -1,4 +1,7 @@
 header {
-    background-color: #aed9e8;
+    background-color: #72ccec;
     overflow: auto;   
+    /* border-bottom-style: inherit; */
+    /* background: radial-gradient(#aed9e8, #eaf5f9); */
+    box-shadow: 0px 10px 8px #888888;
 }

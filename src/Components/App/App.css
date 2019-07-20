@@ -1,8 +1,10 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #e3f9ff;
 }
 
+/* https://github.com/reactjs/react-transition-group/tree/v1-stable */
 .example-appear {
     opacity: 0.01;
   }
