@@ -14,7 +14,7 @@ html, body {
     transition: opacity .5s ease-in;
 }
 
-.profile-picture {
+img {
     border-radius: 5%;
     box-shadow: 4px 10px 8px #888888;
 }

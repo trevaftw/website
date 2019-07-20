@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
 import Trevor from './trevor.jpg';
 import soloGif from './solo-gif.gif';
+import feedbackGif from './feedback-gif.gif';
 
 class Home extends Component {
   render() {
     return (
       <>
       <center>
-      <img className="profile-picture" src={Trevor} /><br />
+      <img src={Trevor} /><br />
       <p><i>
         This is my about me
         </i></p><br />
         <div className="projects">
-          <img src={soloGif} />
+          <div className="solo-project">
+          <img src={soloGif} /><br /><br />
+          <label>Solo Project</label>
+          </div>
+          <div>
+            <img src={feedbackGif} /><br /><br />
+            <label>This will be another project.</label>
+          </div>
         </div>
       </center>
       </>
