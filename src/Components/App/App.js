@@ -26,8 +26,8 @@ class App extends Component {
            transitionEnter={false}
            transitionLeave={false}>
           <Nav />
-        </CSSTransitionGroup>
         
+        <br /><br />
         <div>
           <Switch>
             <Route
@@ -38,6 +38,7 @@ class App extends Component {
             <Route render={() => <center><h1>404<br /><br />This page doesn't exist<br />Why did you come here?</h1></center>} />
           </Switch>
         </div>
+        </CSSTransitionGroup>
       </Router>
     );
   }

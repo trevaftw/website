@@ -7,9 +7,14 @@ html, body {
 /* https://github.com/reactjs/react-transition-group/tree/v1-stable */
 .example-appear {
     opacity: 0.01;
-  }
+}
   
-  .example-appear.example-appear-active {
+.example-appear.example-appear-active {
     opacity: 1;
     transition: opacity .5s ease-in;
-  }
+}
+
+.profile-picture {
+    border-radius: 5%;
+    box-shadow: 4px 10px 8px #888888;
+}

@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Trevor from './trevor.jpg';
 
 class Home extends Component {
   render() {
     return (
       <>
-      <h1>Hello</h1>
+      <center>
+      <img className="profile-picture" src={Trevor} />
+      </center>
       </>
     );
   }
