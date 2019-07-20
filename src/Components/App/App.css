@@ -20,6 +20,8 @@ html, body {
 
 img{
     box-shadow: 4px 5px 10px #888888;
+    max-width:100%;
+    height:auto;
 }
 
 .projects {
@@ -33,4 +35,8 @@ img{
 
 .solo-project, .feedback-project{
     padding: 10px;
+}
+
+label {
+    padding: 5px;
 }
