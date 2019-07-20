@@ -7,22 +7,22 @@ class Home extends Component {
   render() {
     return (
       <>
-      <center>
-      <img src={Trevor} /><br />
-      <p><i>
-        This is my about me
+        <center>
+          <img src={Trevor} className="profile-picture"/><br />
+          <p><i>
+            This is my about me
         </i></p><br />
-        <div className="projects">
-          <div className="solo-project">
-          <img src={soloGif} /><br /><br />
-          <label>Solo Project</label>
+          <div className="projects">
+            <div className="solo-project">
+              <img src={soloGif} /><br /><br />
+              <label>Solo Project</label>
+            </div>
+            <div className="feedback-project">
+              <img src={feedbackGif} /><br /><br />
+              <label>This will be another project.</label>
+            </div>
           </div>
-          <div>
-            <img src={feedbackGif} /><br /><br />
-            <label>This will be another project.</label>
-          </div>
-        </div>
-      </center>
+        </center>
       </>
     );
   }

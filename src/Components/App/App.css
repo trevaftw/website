@@ -14,7 +14,15 @@ html, body {
     transition: opacity .5s ease-in;
 }
 
-img {
+.profile-picture {
     border-radius: 5%;
-    box-shadow: 4px 10px 8px #888888;
+}
+
+img{
+    box-shadow: 4px 5px 10px #888888;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
 }
