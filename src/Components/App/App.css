@@ -25,4 +25,12 @@ img{
 .projects {
     display: flex;
     justify-content: space-around;
+    background-color: #72ccec;
+    width: 75%;
+    box-shadow: 4px 5px 10px #888888;
+
+}
+
+.solo-project, .feedback-project{
+    padding: 10px;
 }

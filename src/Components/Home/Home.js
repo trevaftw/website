@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Trevor from './trevor.jpg';
+
+//gif
 import soloGif from './solo-gif.gif';
 import feedbackGif from './feedback-gif.gif';
 
@@ -8,10 +10,12 @@ class Home extends Component {
     return (
       <>
         <center>
-          <img src={Trevor} className="profile-picture"/><br />
+          <img src={Trevor} className="profile-picture" /><br />
           <p><i>
             This is my about me
-        </i></p><br />
+        </i></p>
+          <br />
+          <h2>Projects</h2><br />
           <div className="projects">
             <div className="solo-project">
               <img src={soloGif} /><br /><br />
