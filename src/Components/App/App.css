@@ -3,9 +3,10 @@ html, body {
     padding: 0;
 }
 body{
-    background-image: url('../Home/background.jpg');
-    background-size: contain;
-    
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 html {
@@ -33,12 +34,12 @@ img{
 }
 
 .projects {
-    display: flex;
+    display: block;
     justify-content: space-around;
-    background-color: #72ccec;
+    background-color: rgba(105, 110, 147, 0.5);
     width: 75%;
     box-shadow: 4px 5px 10px #888888;
-
+    color: white
 }
 
 .links {
@@ -49,6 +50,8 @@ img{
 
 .solo-project, .feedback-project{
     padding: 10px;
+    float: inherit
+    /* display: inline-block; */
 }
 
 label {
