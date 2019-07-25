@@ -1,7 +1,15 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #e3f9ff;
+}
+body{
+    background-image: url('../Home/background.jpg');
+    background-size: contain;
+    
+}
+
+html {
+    background: black;
 }
 
 /* https://github.com/reactjs/react-transition-group/tree/v1-stable */
@@ -30,6 +38,12 @@ img{
     background-color: #72ccec;
     width: 75%;
     box-shadow: 4px 5px 10px #888888;
+
+}
+
+.links {
+    justify-content: space-around;
+    width: 75%;
 
 }
 
