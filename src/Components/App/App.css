@@ -37,23 +37,20 @@ img{
     display: block;
     justify-content: space-around;
     background-color: rgba(105, 110, 147, 0.5);
-    width: 75%;
+    width: 48%;
     box-shadow: 4px 5px 10px #888888;
-    color: white
+    color: white;
 }
 
 .links {
     justify-content: space-around;
-    width: 75%;
+    width: 80%;
 
 }
 
-.solo-project, .feedback-project{
-    padding: 10px;
-    float: inherit
-    /* display: inline-block; */
-}
-
-label {
-    padding: 5px;
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 80%;
 }
