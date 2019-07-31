@@ -43,12 +43,29 @@ img{
     border-radius: 10px;
 }
 
+.about-me, .contact{
+    justify-content: space-around;
+    background-color: rgba(105, 110, 147, 0.5);
+    width: 100%;
+    box-shadow: 4px 5px 10px #888888;
+    color: white;
+    border-radius: 10px;
+}
+
+.skill-list{
+    column-count: 3;
+    list-style: none;
+
+}
+
 .links {
     width: 80%;
     background-color: black;
     overflow: auto;   
     color: white;
     border-radius: 10px;
+    box-shadow: 4px 5px 10px #888888;
+
 }
 
 .nav-list{
