@@ -56,7 +56,7 @@ class Home extends Component {
             }
             {this.state.display === 'About Me' ?
               <div className="about-me">
-                Nice to meet you! My name is Trevor, and I enjoy a variety of hobbies. I actively follow Magic tthe Gathering tournaments, play a variety of board games, and enjoy traveling with my girlfriend to go see bands. Aside from this, I have recently developed a passion for coding and have decided to pursue this at <a style={{color: "black"}} href="https://primeacademy.io/">Prime Digital Academy</a>. Here I have been able to learn more than I ever imagined, and I haven't even scratched the surface on everything there is out there. Here we have focused on learning full-stack development. Some of the languages, frameworks, and programs we’ve used are:
+                Nice to meet you! My name is Trevor, and I enjoy a variety of hobbies. I actively follow Magic tthe Gathering tournaments, play a variety of board games, and enjoy traveling with my girlfriend to go see bands. Aside from this, I have recently developed a passion for coding and have decided to pursue this at <a style={{ color: "black" }} href="https://primeacademy.io/">Prime Digital Academy</a>. Here I have been able to learn more than I ever imagined, and I haven't even scratched the surface on everything there is out there. Here we have focused on learning full-stack development. Some of the languages, frameworks, and programs we’ve used are:
                 <br />
                 <br /><div className="skill-list">
                   <li>JavaScript</li>
@@ -73,7 +73,7 @@ class Home extends Component {
                   <li>GitHub</li>
                 </div><br />
                 <br />
-                If you're interested in looking at a sample of projects I have done, you can click the Projects header to learn more. If you would like to reach out to me, click the Contact header. 
+                If you're interested in looking at a sample of projects I have done, you can click the Projects header to learn more. If you would like to reach out to me, click the Contact header.
               </div>
               :
               <>
@@ -83,7 +83,7 @@ class Home extends Component {
               <div className="contact">
                 <h3>Contact</h3>
                 The best method to reach me is via email. You can send any inquiries to:<br /><br />
-                <a className="email-me" style={{color: "black"}} href="mailto:trevor.ramlow@gmail.com">trevor.ramlow@gmail.com</a><br /><br />
+                <a className="email-me" style={{ color: "black" }} href="mailto:trevor.ramlow@gmail.com">trevor.ramlow@gmail.com</a><br /><br />
               </div>
               :
               <>

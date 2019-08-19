@@ -59,6 +59,13 @@ img{
     border-radius: 10px;
 }
 
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 80%;
+}
+
 .about-me, .contact{
     justify-content: space-around;
     background-color: rgba(105, 110, 147, 0.5);
@@ -96,12 +103,7 @@ li:hover {
     color: #8F5481;
 }
 
-.project-grid {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 80%;
-}
+
 
 .email-me{
     background-color: #b6c5d1;
