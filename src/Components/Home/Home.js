@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 //components
 import HomeHeader from './HomeHeader';
 import HomeBody from './HomeBody';
+import HomeFooter from './HomeFooter';
 
 class Home extends Component {
 
@@ -12,9 +13,7 @@ class Home extends Component {
         <center>
           <HomeHeader />
           <HomeBody />
-          <footer>
-            <br /><br />
-          </footer>
+          <HomeFooter />
         </center>
       </>
     );
