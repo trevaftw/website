@@ -56,7 +56,7 @@ p{
 .projects {
     display: block;
     justify-content: space-around;
-    background-color: rgba(105, 110, 147, 0.5);
+    background-color: rgba(105, 110, 147, 0.75);
     width: 48%;
     box-shadow: 4px 5px 10px #888888;
     color: white;
@@ -72,7 +72,7 @@ p{
 
 .about-me, .contact{
     justify-content: space-around;
-    background-color: rgba(105, 110, 147, 0.5);
+    background-color: rgba(105, 110, 147, 0.75);
     width: 100%;
     box-shadow: 4px 5px 10px #888888;
     color: white;
