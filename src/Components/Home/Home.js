@@ -4,6 +4,7 @@ import Trevor from '../images/trevor.jpg';
 //components
 import AboutMe from '../AboutMe/AboutMe';
 import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 class Home extends Component {
 
@@ -48,11 +49,7 @@ class Home extends Component {
               </>
             }
             {this.state.display === 'Contact' ?
-              <div className="contact">
-                <h3>Contact</h3>
-                The best method to reach me is via email. You can send any inquiries to:<br /><br />
-                <a className="email-me" style={{ color: "black" }} href="mailto:trevor.ramlow@gmail.com">trevor.ramlow@gmail.com</a><br /><br />
-              </div>
+              <Contact />
               :
               <>
               </>
