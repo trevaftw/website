@@ -23,7 +23,6 @@ class HomeBody extends Component {
                         <ul className="nav-list">
                             <li className="nav-link" onClick={() => { this.handleClick('About Me') }}><u>About Me</u></li>
                             <li className="nav-link" onClick={() => { this.handleClick('Projects') }}><u>Projects</u></li>
-                            <li className="nav-link" onClick={() => { this.handleClick('Contact') }}><u>Contact</u></li>
                         </ul>
                     </h2>
                 </div>
@@ -41,13 +40,6 @@ class HomeBody extends Component {
                         <>
                         </>
                     }
-                    {this.state.display === 'Contact' ?
-                        <Contact />
-                        :
-                        <>
-                        </>
-                    }
-
                 </div>
             </>
         )
