@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 //components
 import AboutMe from '../AboutMe/AboutMe';
 import Projects from '../Projects/Projects';
-import Contact from '../Contact/Contact';
 
 class HomeBody extends Component {
     state = {
