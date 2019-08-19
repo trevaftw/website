@@ -49,6 +49,10 @@ img{
     height:auto;
 }
 
+.about-me-info{
+    margin: 10px;
+}
+
 .projects {
     display: block;
     justify-content: space-around;
@@ -99,7 +103,7 @@ img{
   justify-content: space-around;
 }
 
-li:hover {
+.nav-link:hover {
     color: #8F5481;
 }
 

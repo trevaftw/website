@@ -21,9 +21,9 @@ class HomeBody extends Component {
                 <div className="links">
                     <h2>
                         <ul className="nav-list">
-                            <li onClick={() => { this.handleClick('About Me') }}><u>About Me</u></li>
-                            <li onClick={() => { this.handleClick('Projects') }}><u>Projects</u></li>
-                            <li onClick={() => { this.handleClick('Contact') }}><u>Contact</u></li>
+                            <li className="nav-link" onClick={() => { this.handleClick('About Me') }}><u>About Me</u></li>
+                            <li className="nav-link" onClick={() => { this.handleClick('Projects') }}><u>Projects</u></li>
+                            <li className="nav-link" onClick={() => { this.handleClick('Contact') }}><u>Contact</u></li>
                         </ul>
                     </h2>
                 </div>
