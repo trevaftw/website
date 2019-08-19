@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Trevor from '../images/trevor.jpg';
 
 //components
 import AboutMe from '../AboutMe/AboutMe';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import HomeHeader from './HomeHeader';
 
 class Home extends Component {
 
@@ -13,7 +13,6 @@ class Home extends Component {
   }
 
   handleClick = (string) => {
-    console.log('hello')
     this.setState({
       display: string
     })
@@ -23,8 +22,7 @@ class Home extends Component {
     return (
       <>
         <center>
-          <img src={Trevor} className="profile-picture" alt="A headshot of Trevor Ramlow" /><br />
-          <br />
+          <HomeHeader />
           <div className="links">
             <h2>
               <ul className="nav-list">
@@ -37,19 +35,19 @@ class Home extends Component {
           <br />
           <div className="project-grid">
             {this.state.display === 'Projects' ?
-              <Projects />
+              <Projects display={this.state} />
               :
               <>
               </>
             }
             {this.state.display === 'About Me' ?
-              <AboutMe />
+              <AboutMe display={this.state} />
               :
               <>
               </>
             }
             {this.state.display === 'Contact' ?
-              <Contact />
+              <Contact display={this.state} />
               :
               <>
               </>
