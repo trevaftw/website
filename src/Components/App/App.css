@@ -50,7 +50,8 @@ img{
 }
 
 p{
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .projects {
@@ -73,7 +74,7 @@ p{
 .about-me, .contact{
     justify-content: space-around;
     background-color: rgba(105, 110, 147, 0.75);
-    width: 100%;
+    width: 80%;
     box-shadow: 4px 5px 10px #888888;
     color: white;
     border-radius: 10px;

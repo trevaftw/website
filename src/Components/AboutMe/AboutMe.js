@@ -8,7 +8,7 @@ class AboutMe extends Component {
                     Nice to meet you! My name is Trevor, and I enjoy a variety of hobbies.
                     I actively follow competitive Magic the Gathering tournaments, play a variety of board games,
                     and enjoy traveling with my girlfriend to go see bands. Aside from this, I have recently
-                    developed a passion for coding and have decided to pursue this at
+                    developed a passion for coding and have decided to pursue this at 
                     <a style={{ color: "black" }} href="https://primeacademy.io/">Prime Digital Academy</a>.
                     Here I have been able to learn more than I ever imagined, and I haven't even scratched the surface
                     on everything there is out there. Here we have focused on learning full-stack development. Some of

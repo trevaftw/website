@@ -26,7 +26,6 @@ class HomeBody extends Component {
                     </h2>
                 </div>
                 <br />
-                <div className="project-grid">
                     {this.state.display === 'Projects' ?
                         <Projects />
                         :
@@ -39,7 +38,6 @@ class HomeBody extends Component {
                         <>
                         </>
                     }
-                </div>
             </>
         )
     }
