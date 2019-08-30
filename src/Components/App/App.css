@@ -71,6 +71,10 @@ p{
     width: 80%;
 }
 
+.project-gif:hover {
+opacity: 0.5;
+}
+
 .about-me, .contact{
     justify-content: space-around;
     background-color: rgba(105, 110, 147, 0.75);

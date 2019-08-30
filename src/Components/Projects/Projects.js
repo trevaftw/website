@@ -5,13 +5,22 @@ import soloGif from '../images/solo-gif.gif';
 import feedbackGif from '../images/feedback-gif.gif';
 
 class Projects extends Component {
+
+    handleMouseEnter = () => {
+        console.log('on mouse enter')
+    }
+
+    handleMouseLeave = () => {
+        console.log('on mouse leave')
+    }
+
     render() {
         return (
             <>
                 <div className="project-grid">
                     <div className="projects">
                         <h3>Solo Project - Card Collection Tracker</h3><br />
-                        <img src={soloGif} alt="A gif of the Card Collection Tracker app" />
+                        <img onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} className="project-gif" src={soloGif} alt="A gif of the Card Collection Tracker app" />
                         <p>
                             This app was created to track the value and qunaity of a users Magic: The Gathering collection.
                             A user can create an account and search an external API for cards to get their prices, then add
@@ -26,7 +35,7 @@ class Projects extends Component {
                     </div>
                     <div className="projects">
                         <h3>Daily Feedback Form</h3><br />
-                        <img src={feedbackGif} alt="A gif of the Daily Feedback Form app" /><br />
+                        <img className="project-gif" src={feedbackGif} alt="A gif of the Daily Feedback Form app" /><br />
                         <p>
                             This app allows users to submit feedback on how they felt that day for class. This was built to
                             test knowledge of using different page routes and tracking state with Redux.
