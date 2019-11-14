@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 //styling
-import './App.css';
+// import './App.css';
 import { CSSTransitionGroup } from 'react-transition-group' // ES6
 
 //components
