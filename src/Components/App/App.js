@@ -18,28 +18,32 @@ import Home from '../Home/Home';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <CSSTransitionGroup
-           transitionName="example"
-           transitionAppear={true}
-           transitionAppearTimeout={500}
-           transitionEnter={false}
-           transitionLeave={false}>
-          <Nav />
+      <center>
+        <h1>Under restructuring</h1>
+      </center>
+
+      // <Router>
+      //   <CSSTransitionGroup
+      //      transitionName="example"
+      //      transitionAppear={true}
+      //      transitionAppearTimeout={500}
+      //      transitionEnter={false}
+      //      transitionLeave={false}>
+      //     <Nav />
         
-        <br /><br />
-        <div>
-          <Switch>
-            <Route
-              exact
-              path="/"
-              component={Home}
-            />
-            <Route render={() => <center><h1>404<br /><br />This page doesn't exist<br />Why did you come here?</h1></center>} />
-          </Switch>
-        </div>
-        </CSSTransitionGroup>
-      </Router>
+      //   <br /><br />
+      //   <div>
+      //     <Switch>
+      //       <Route
+      //         exact
+      //         path="/"
+      //         component={Home}
+      //       />
+      //       <Route render={() => <center><h1>404<br /><br />This page doesn't exist<br />Why did you come here?</h1></center>} />
+      //     </Switch>
+      //   </div>
+      //   </CSSTransitionGroup>
+      // </Router>
     );
   }
 }

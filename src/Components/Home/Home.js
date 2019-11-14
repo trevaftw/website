@@ -11,10 +11,9 @@ class Home extends Component {
     return (
       <>
         <center>
-          <h1>Under re-construction</h1>
-          {/* <HomeHeader />
+          <HomeHeader />
           <HomeBody />
-          <HomeFooter /> */}
+          <HomeFooter />
         </center>
       </>
     );
